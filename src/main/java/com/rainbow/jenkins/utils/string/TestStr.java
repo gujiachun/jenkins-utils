@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class TestStr {
 
-	@Value("name")
+	@Value("${name}")
 	private String name;
 	
 	public String getStr(){
