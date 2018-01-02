@@ -6,10 +6,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class TestStr {
 
-	@Value("${name}")
+	@Value("${test.msg}")
 	private String name;
 	
 	public String getStr(){
-		return name;
+		return "22=" + name;
 	}
+	
 }
